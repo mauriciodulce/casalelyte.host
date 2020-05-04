@@ -4,6 +4,7 @@ update_configs:
   - package_manager: javascript
     directory: /
     update_schedule: live
+    target_branch: "main-dev"
     allowed_updates:
       - match:
           update_type: security
